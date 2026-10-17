@@ -11,3 +11,6 @@ The research collection contains six independent skills that can be coordinated 
 - `media`: inspects and processes audio/video/image files; URL operations require network access and third-party skills are fetched per session.
 - `web`: reads and searches online sources; offline use is limited to supplied local content.
 - `paper`: writes international-standard or Vietnamese public-facing reports, with clear citations and separate support data when useful.
+- `diagram`: creates diagrams/charts; Mermaid uses local rendering by default and remote backends require explicit selection.
+
+The `research` tag always points to the collection's current snapshot; it is not a sequential version series.

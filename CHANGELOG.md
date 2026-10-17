@@ -11,3 +11,6 @@ Collection nghiên cứu gồm sáu skill độc lập, được phối hợp kh
 - `media`: kiểm tra và xử lý file audio/video/ảnh; thao tác URL cần mạng và skill bên thứ ba được tải theo phiên.
 - `web`: đọc/tìm kiếm nguồn trực tuyến; offline chỉ xử lý nội dung local đã được cung cấp.
 - `paper`: viết báo cáo chuẩn quốc tế hoặc báo cáo phổ biến tại Việt Nam, dẫn nguồn rõ và tách dữ liệu hỗ trợ khi cần.
+- `diagram`: tạo sơ đồ/biểu đồ; Mermaid chạy local mặc định, backend từ xa chỉ dùng khi được chọn rõ.
+
+Tag `research` luôn trỏ tới snapshot hiện hành của collection, không biểu thị một chuỗi phiên bản.

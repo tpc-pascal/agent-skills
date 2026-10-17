@@ -1,0 +1,8 @@
+# Release history
+
+This repository releases by **collection**, not through a SemVer version sequence. Each directory under `skills/` has exactly one tag and one GitHub Release with the same name. That tag/release is the collection's current snapshot; CI moves it to the latest commit that changes the collection directory. Detailed development history remains in the [Git log](https://github.com/tpc-pascal/agent-skills/commits/main/).
+
+## [`research`](https://github.com/tpc-pascal/agent-skills/releases/tag/research)
+
+The research collection contains six independent skills that can be coordinated when a workflow needs multiple steps:
+

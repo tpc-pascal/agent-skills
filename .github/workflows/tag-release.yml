@@ -1,0 +1,21 @@
+name: Đóng gói bộ skill / Package skill collection
+on:
+  push:
+    branches: [main]
+permissions:
+  contents: write
+jobs:
+  tag-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Lấy đủ history cho git log theo đường dẫn / full history for path-limited git log
+        run: git fetch --unshallow || true
+      - name: Chuyển tag + release từng bộ / move each collection tag + release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          for d in skills/*/; do
+            collection="${d%/}"
+            bash scripts/tag-release.sh "${collection#skills/}"
+          done

@@ -1,0 +1,10 @@
+{
+  "name": "agent-skills",
+  "version": "0.2.1",
+  "private": true,
+  "description": "Agent skill collections for OpenCode/Claude/Cursor, installed per collection",
+  "license": "MIT",
+  "bin": {
+    "agent-skills": "./scripts/install.sh"
+  }
+}

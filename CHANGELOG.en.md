@@ -9,3 +9,4 @@ The research collection contains six independent skills that can be coordinated 
 - `orchestrator`: routes requests to the appropriate skill and asks only for missing report requirements.
 - `doc`: extracts, OCRs, converts, and verifies documents with local tools when available.
 - `media`: inspects and processes audio/video/image files; URL operations require network access and third-party skills are fetched per session.
+- `web`: reads and searches online sources; offline use is limited to supplied local content.

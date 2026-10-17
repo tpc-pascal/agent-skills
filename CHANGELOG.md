@@ -6,3 +6,4 @@ Repo phát hành theo **collection**, không theo chuỗi phiên bản SemVer. M
 
 Collection nghiên cứu gồm sáu skill độc lập, được phối hợp khi workflow cần nhiều bước:
 
+- `orchestrator`: định tuyến yêu cầu tới skill phù hợp và hỏi phần yêu cầu báo cáo còn thiếu.

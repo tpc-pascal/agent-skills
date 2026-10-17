@@ -7,3 +7,4 @@ This repository releases by **collection**, not through a SemVer version sequenc
 The research collection contains six independent skills that can be coordinated when a workflow needs multiple steps:
 
 - `orchestrator`: routes requests to the appropriate skill and asks only for missing report requirements.
+- `doc`: extracts, OCRs, converts, and verifies documents with local tools when available.

@@ -10,3 +10,4 @@ Collection nghiên cứu gồm sáu skill độc lập, được phối hợp kh
 - `doc`: trích xuất, OCR, chuyển đổi và xác minh tài liệu bằng công cụ local khi có sẵn.
 - `media`: kiểm tra và xử lý file audio/video/ảnh; thao tác URL cần mạng và skill bên thứ ba được tải theo phiên.
 - `web`: đọc/tìm kiếm nguồn trực tuyến; offline chỉ xử lý nội dung local đã được cung cấp.
+- `paper`: viết báo cáo chuẩn quốc tế hoặc báo cáo phổ biến tại Việt Nam, dẫn nguồn rõ và tách dữ liệu hỗ trợ khi cần.

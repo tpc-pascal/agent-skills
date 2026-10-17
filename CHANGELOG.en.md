@@ -10,3 +10,4 @@ The research collection contains six independent skills that can be coordinated 
 - `doc`: extracts, OCRs, converts, and verifies documents with local tools when available.
 - `media`: inspects and processes audio/video/image files; URL operations require network access and third-party skills are fetched per session.
 - `web`: reads and searches online sources; offline use is limited to supplied local content.
+- `paper`: writes international-standard or Vietnamese public-facing reports, with clear citations and separate support data when useful.

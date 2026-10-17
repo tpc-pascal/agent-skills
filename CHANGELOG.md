@@ -8,3 +8,4 @@ Collection nghiên cứu gồm sáu skill độc lập, được phối hợp kh
 
 - `orchestrator`: định tuyến yêu cầu tới skill phù hợp và hỏi phần yêu cầu báo cáo còn thiếu.
 - `doc`: trích xuất, OCR, chuyển đổi và xác minh tài liệu bằng công cụ local khi có sẵn.
+- `media`: kiểm tra và xử lý file audio/video/ảnh; thao tác URL cần mạng và skill bên thứ ba được tải theo phiên.
